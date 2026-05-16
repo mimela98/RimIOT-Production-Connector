@@ -7,4 +7,7 @@
   <RimIOT_PC_StatusFlickedOff>생산 커넥터: 꺼짐</RimIOT_PC_StatusFlickedOff>
   <RimIOT_PC_StatusNetworkUnpowered>생산 커넥터: IOT 네트워크 전력 없음</RimIOT_PC_StatusNetworkUnpowered>
   <RimIOT_PC_StatusMultiple>경고: 이 생산 건물 아래에 생산 커넥터가 여러 개 있습니다</RimIOT_PC_StatusMultiple>
+  <RimIOT_PC_EnableRecipeDropIntercept>레시피 처리 추가 아이템 감지</RimIOT_PC_EnableRecipeDropIntercept>
+  <RimIOT_PC_EnableRecipeDropInterceptDesc>켜면 생산 건물이 레시피 재료를 처리하는 동안 바닥에 떨어뜨리는 아이템을 가로채 해당 건물에 연결된 IOT 네트워크에 입고 요청합니다. 재시작 후 적용됩니다.</RimIOT_PC_EnableRecipeDropInterceptDesc>
+  <RimIOT_PC_RestartRequired>이 설정 변경은 RimWorld를 재시작한 뒤 적용됩니다.</RimIOT_PC_RestartRequired>
 </LanguageData>

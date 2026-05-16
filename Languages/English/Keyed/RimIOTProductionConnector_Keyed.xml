@@ -7,4 +7,7 @@
   <RimIOT_PC_StatusFlickedOff>Production connector: switched off</RimIOT_PC_StatusFlickedOff>
   <RimIOT_PC_StatusNetworkUnpowered>Production connector: IOT network unpowered</RimIOT_PC_StatusNetworkUnpowered>
   <RimIOT_PC_StatusMultiple>Warning: multiple production connectors under this building</RimIOT_PC_StatusMultiple>
+  <RimIOT_PC_EnableRecipeDropIntercept>Send recipe-side dropped items to the IOT network</RimIOT_PC_EnableRecipeDropIntercept>
+  <RimIOT_PC_EnableRecipeDropInterceptDesc>When enabled, items that are dropped while a production building processes recipe ingredients are intercepted and submitted to that building's connected IOT network. Requires restart.</RimIOT_PC_EnableRecipeDropInterceptDesc>
+  <RimIOT_PC_RestartRequired>Changes to this setting take effect after restarting RimWorld.</RimIOT_PC_RestartRequired>
 </LanguageData>

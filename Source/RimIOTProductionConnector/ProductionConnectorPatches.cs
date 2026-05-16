@@ -107,6 +107,11 @@ namespace RimIOTProductionConnector
     })]
     public static class Patch_GenPlace_TryPlaceThing_NoResult
     {
+        public static bool Prepare()
+        {
+            return RimIOTProductionConnectorModSettings.Settings?.enableRecipeDropIntercept ?? true;
+        }
+
         public static bool Prefix(Thing thing, Map map, ref bool __result)
         {
             if (!RecipeDropDepositContext.Active)
@@ -127,6 +132,11 @@ namespace RimIOTProductionConnector
     [HarmonyPatch]
     public static class Patch_GenPlace_TryPlaceThing_WithResult
     {
+        public static bool Prepare()
+        {
+            return RimIOTProductionConnectorModSettings.Settings?.enableRecipeDropIntercept ?? true;
+        }
+
         public static MethodBase TargetMethod()
         {
             return AccessTools.Method(typeof(GenPlace), nameof(GenPlace.TryPlaceThing), new[]
