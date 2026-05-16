@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RimIOT_ProductionConnector.label>IOT 생산 커넥터</RimIOT_ProductionConnector.label>
+  <RimIOT_ProductionConnector.description>생산 건물 아래에 설치하는 바닥형 출력 커넥터입니다. 해당 건물의 작업이 완료되면 생산된 결과물을 연결된 IOT 네트워크에 입고 요청합니다. 네트워크가 받을 수 없는 결과물은 기존 방식대로 배치됩니다.</RimIOT_ProductionConnector.description>
+</LanguageData>

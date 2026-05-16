@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RimIOT_PC_StatusActive>생산 커넥터: 활성</RimIOT_PC_StatusActive>
+  <RimIOT_PC_StatusNoProducer>생산 커넥터: 위에 생산 건물 없음</RimIOT_PC_StatusNoProducer>
+  <RimIOT_PC_StatusNoNetwork>생산 커넥터: IOT 네트워크 연결 없음</RimIOT_PC_StatusNoNetwork>
+  <RimIOT_PC_StatusNoPower>생산 커넥터: 전력 없음</RimIOT_PC_StatusNoPower>
+  <RimIOT_PC_StatusFlickedOff>생산 커넥터: 꺼짐</RimIOT_PC_StatusFlickedOff>
+  <RimIOT_PC_StatusNetworkUnpowered>생산 커넥터: IOT 네트워크 전력 없음</RimIOT_PC_StatusNetworkUnpowered>
+  <RimIOT_PC_StatusMultiple>경고: 이 생산 건물 아래에 생산 커넥터가 여러 개 있습니다</RimIOT_PC_StatusMultiple>
+</LanguageData>

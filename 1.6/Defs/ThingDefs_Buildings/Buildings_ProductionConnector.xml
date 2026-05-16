@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RimIOT_ProductionConnector</defName>
+    <label>IOT production connector</label>
+    <description>A floor-level output connector installed under a production building. When that building finishes a bill, completed products are submitted to the connected IOT network. Products the network cannot accept are placed normally.</description>
+    <thingClass>RimIOTProductionConnector.Building_ProductionConnector</thingClass>
+    <category>Building</category>
+    <altitudeLayer>FloorCoverings</altitudeLayer>
+    <passability>Standable</passability>
+    <pathCost>0</pathCost>
+    <clearBuildingArea>false</clearBuildingArea>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <drawerType>MapMeshOnly</drawerType>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <noRightClickDraftAttack>true</noRightClickDraftAttack>
+    <building>
+      <isEdifice>false</isEdifice>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <canLandGravshipOn>true</canLandGravshipOn>
+    </building>
+    <graphicData>
+      <texPath>Things/Building/RimIOT/InputConnector/RimIOT_InputConnector</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(0.65,0.9,1,1)</color>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="RimIOT.CompProperties_NetworkNode">
+        <role>InputConnector</role>
+      </li>
+      <li Class="RimIOT.CompProperties_InterfacePower">
+        <baseDraw>100</baseDraw>
+        <drawPerCable>10</drawPerCable>
+      </li>
+    </comps>
+    <designationCategory>RimIOT_Category</designationCategory>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <uiIconPath>Things/Building/RimIOT/InputConnector/RimIOT_InputConnector_UI</uiIconPath>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RimIOT_PC_StatusActive>Production connector: active</RimIOT_PC_StatusActive>
+  <RimIOT_PC_StatusNoProducer>Production connector: no production building above</RimIOT_PC_StatusNoProducer>
+  <RimIOT_PC_StatusNoNetwork>Production connector: no IOT network</RimIOT_PC_StatusNoNetwork>
+  <RimIOT_PC_StatusNoPower>Production connector: no power</RimIOT_PC_StatusNoPower>
+  <RimIOT_PC_StatusFlickedOff>Production connector: switched off</RimIOT_PC_StatusFlickedOff>
+  <RimIOT_PC_StatusNetworkUnpowered>Production connector: IOT network unpowered</RimIOT_PC_StatusNetworkUnpowered>
+  <RimIOT_PC_StatusMultiple>Warning: multiple production connectors under this building</RimIOT_PC_StatusMultiple>
+</LanguageData>

@@ -1,0 +1,9 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RimIOT Production Connector\Source\RimIOTProductionConnector\obj\Release\RimIOTProductionConnector.csproj.AssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RimIOT Production Connector\Source\RimIOTProductionConnector\obj\Release\RimIOTProductionConnector.GeneratedMSBuildEditorConfig.editorconfig
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RimIOT Production Connector\Source\RimIOTProductionConnector\obj\Release\RimIOTProductionConnector.AssemblyInfoInputs.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RimIOT Production Connector\Source\RimIOTProductionConnector\obj\Release\RimIOTProductionConnector.AssemblyInfo.cs
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RimIOT Production Connector\Source\RimIOTProductionConnector\obj\Release\RimIOTProductionConnector.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RimIOT Production Connector\1.6\Assemblies\RimIOTProductionConnector.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RimIOT Production Connector\1.6\Assemblies\RimIOTProductionConnector.pdb
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RimIOT Production Connector\Source\RimIOTProductionConnector\obj\Release\RimIOTProductionConnector.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\RimIOT Production Connector\Source\RimIOTProductionConnector\obj\Release\RimIOTProductionConnector.pdb
