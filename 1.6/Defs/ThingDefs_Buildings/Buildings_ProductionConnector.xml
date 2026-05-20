@@ -47,7 +47,6 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>100</basePowerConsumption>
-        <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="RimIOT.CompProperties_NetworkNode">
