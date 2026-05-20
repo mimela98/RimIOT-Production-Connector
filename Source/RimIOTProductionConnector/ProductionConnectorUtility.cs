@@ -91,13 +91,13 @@ namespace RimIOTProductionConnector
             }
 
             var mapComp = connector.Map.GetComponent<MapComponent_NetworkManager>();
-            var net = mapComp?.GetNetworkFor(connector);
+            var net = RimIOTApi.GetNetworkFor(connector, connector.Map);
             if (net == null)
             {
                 return new ProductionConnectorStatus(ProductionConnectorState.NoNetwork, producer, multiple);
             }
 
-            if (!mapComp.IsNetworkPowered(net))
+            if (!RimIOTApi.IsNetworkPowered(net, connector.Map))
             {
                 return new ProductionConnectorStatus(ProductionConnectorState.NetworkUnpowered, producer, multiple);
             }
@@ -114,14 +114,8 @@ namespace RimIOTProductionConnector
                 return false;
             }
 
-            var mapComp = map.GetComponent<MapComponent_NetworkManager>();
-            if (mapComp == null)
-            {
-                return false;
-            }
-
-            network = mapComp.GetNetworkFor(connector);
-            return network != null && mapComp.IsNetworkPowered(network);
+            network = RimIOTApi.GetNetworkFor(connector, map);
+            return network != null && RimIOTApi.IsNetworkPowered(network, map);
         }
 
         public static Building_ProductionConnector FirstActiveConnectorFor(Building producer)

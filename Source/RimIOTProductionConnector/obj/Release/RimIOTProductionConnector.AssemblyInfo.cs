@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RimIOTProductionConnector")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dc743229017ad3f0818a857b5ca2d654105b6d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("RimIOTProductionConnector")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RimIOTProductionConnector")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

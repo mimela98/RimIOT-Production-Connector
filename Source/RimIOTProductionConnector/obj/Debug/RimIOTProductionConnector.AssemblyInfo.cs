@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RimIOTProductionConnector")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23b8e54835104965c6e053b6c80d953ebccf2e6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RimIOTProductionConnector")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RimIOTProductionConnector")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
